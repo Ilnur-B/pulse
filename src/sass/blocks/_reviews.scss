@@ -1,0 +1,34 @@
+.reviews {
+  margin: 130px 0 70px 0;
+}
+.review {
+  display: flex;
+  margin-top: 100px;
+
+  &__foto {
+    max-width: 100%;
+    height: 169px;
+    margin-right: 62px;
+  }
+  &__text {
+    max-width: 650px;
+    &_name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0d0d0d;
+    }
+    &_exp {
+      font-size: 14px;
+      font-weight: 300;
+      color: #646464;
+      margin-top: 10px;
+    }
+    &_content {
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 300;
+      color: #0d0d0d;
+      margin-top: 20px;
+    }
+  }
+}
